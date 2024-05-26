@@ -1,0 +1,1073 @@
+OncotreePrimaryDisease,ModelID,DepmapModelType,OncotreeCode,OncotreeSubtype,tcga code
+Acute Myeloid Leukemia,ACH-000004,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-001230,AMKL,AMKL,Acute Megakaryoblastic Leukemia,LAML
+Acute Myeloid Leukemia,ACH-001129,AMOL,AMOL,Acute Monoblastic/Monocytic Leukemia,LAML
+Acute Myeloid Leukemia,ACH-001574,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000006,AMOL,AMOL,Acute Monoblastic/Monocytic Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000002,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-001036,MLADS,MLADS,Myeloid Leukemia Associated with Down Syndrome,LAML
+Acute Myeloid Leukemia,ACH-002290,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000005,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000065,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000080,AMOL,AMOL,Acute Monoblastic/Monocytic Leukemia,LAML
+Acute Myeloid Leukemia,ACH-001037,MLADS,MLADS,Myeloid Leukemia Associated with Down Syndrome,LAML
+Acute Myeloid Leukemia,ACH-001577,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000294,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-002299,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-001613,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000770,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000034,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000602,AMKL,AMKL,Acute Megakaryoblastic Leukemia,LAML
+Acute Myeloid Leukemia,ACH-002262,AMML,AMML,Acute Myelomonocytic Leukemia,LAML
+Acute Myeloid Leukemia,ACH-001618,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-002258,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000112,AMOL,AMOL,Acute Monoblastic/Monocytic Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000081,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-002273,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-002314,AMOL,AMOL,Acute Monoblastic/Monocytic Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000557,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000045,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000084,AMLGATA2MECOM,AMLGATA2MECOM,"AML with inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2); GATA2, MECOM",LAML
+Acute Myeloid Leukemia,ACH-000751,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000336,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000195,AMKL,AMKL,Acute Megakaryoblastic Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000641,MLADS,MLADS,Myeloid Leukemia Associated with Down Syndrome,LAML
+Acute Myeloid Leukemia,ACH-000299,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-002218,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000362,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-001647,AMOL,AMOL,Acute Monoblastic/Monocytic Leukemia,LAML
+Acute Myeloid Leukemia,ACH-001656,AM,AM,AML with Maturation,LAML
+Acute Myeloid Leukemia,ACH-000263,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000190,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000386,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000218,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000146,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000439,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000498,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000113,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000373,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000369,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000406,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000168,AMOL,AMOL,Acute Monoblastic/Monocytic Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000166,AML,AML,Acute Myeloid Leukemia,LAML
+Acute Myeloid Leukemia,ACH-000387,AML,AML,Acute Myeloid Leukemia,LAML
+Adrenocortical Cancer,ACH-001401,ACC,ACC,Adrenocortical Carcinoma,ACC
+Bladder Urothelial Carcinoma,ACH-001414,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-001409,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000896,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000905,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-001407,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-001183,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000127,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-001416,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000862,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-001413,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-001415,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000802,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000834,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000741,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000753,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-001410,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-001412,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000142,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000011,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000018,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000026,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000473,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000396,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000593,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000242,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000522,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000384,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000724,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-002235,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000545,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-002266,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000547,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000720,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000566,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Bladder Urothelial Carcinoma,ACH-000486,BLCA,BLCA,Bladder Urothelial Carcinoma,BLCA
+Brain Lower Grade Glioma,ACH-000807,ODG,ODG,Oligodendroglioma,LGG
+Brain Lower Grade Glioma,ACH-000067,ODG,ODG,Oligodendroglioma,LGG
+Brain Lower Grade Glioma,ACH-000126,ODG,ODG,Oligodendroglioma,LGG
+Cervical Squamous Cell Carcinoma,ACH-002180,CESC,CESC,Cervical Squamous Cell Carcinoma,CESC
+Cervical Squamous Cell Carcinoma,ACH-001651,CESC,CESC,Cervical Squamous Cell Carcinoma,CESC
+Cervical Squamous Cell Carcinoma,ACH-002020,CESC,CESC,Cervical Squamous Cell Carcinoma,CESC
+Cervical Squamous Cell Carcinoma,ACH-000490,CESC,CESC,Cervical Squamous Cell Carcinoma,CESC
+Cervical Squamous Cell Carcinoma,ACH-001402,CESC,CESC,Cervical Squamous Cell Carcinoma,CESC
+Cervical Squamous Cell Carcinoma,ACH-001652,CESC,CESC,Cervical Squamous Cell Carcinoma,CESC
+Cervical Squamous Cell Carcinoma,ACH-001359,CESC,CESC,Cervical Squamous Cell Carcinoma,CESC
+Cervical Squamous Cell Carcinoma,ACH-001336,CESC,CESC,Cervical Squamous Cell Carcinoma,CESC
+Cervical Squamous Cell Carcinoma,ACH-001360,CESC,CESC,Cervical Squamous Cell Carcinoma,CESC
+Cervical Squamous Cell Carcinoma,ACH-001334,CESC,CESC,Cervical Squamous Cell Carcinoma,CESC
+Cervical Squamous Cell Carcinoma,ACH-001515,CESC,CESC,Cervical Squamous Cell Carcinoma,CESC
+Cervical Squamous Cell Carcinoma,ACH-000556,CESC,CESC,Cervical Squamous Cell Carcinoma,CESC
+Cervical Squamous Cell Carcinoma,ACH-001335,CESC,CESC,Cervical Squamous Cell Carcinoma,CESC
+Cervical Squamous Cell Carcinoma,ACH-001451,CESC,CESC,Cervical Squamous Cell Carcinoma,CESC
+Cervical Squamous Cell Carcinoma,ACH-001333,CESC,CESC,Cervical Squamous Cell Carcinoma,CESC
+Cholangiocarcinoma,ACH-002647,CHOL,CHOL,Cholangiocarcinoma,CHOL
+Colorectal Adenocarcinoma,ACH-001456,COADREAD,COADREAD,Colorectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-001345,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-001461,READ,READ,Rectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-001454,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000552,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000708,READ,READ,Rectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-001786,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-001459,READ,READ,Rectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-002233,COADREAD,COADREAD,Colorectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-002287,COADREAD,COADREAD,Colorectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-001460,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-002219,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000501,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-001458,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000249,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000491,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-002024,READ,READ,Rectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-002025,READ,READ,Rectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000489,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000236,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000959,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000710,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-001399,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-001199,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000003,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000007,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000009,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000565,READ,READ,Rectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-001825,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000651,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000680,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000683,READ,READ,Rectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-001039,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-001061,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000252,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000722,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000798,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000470,READ,READ,Rectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-002345,READ,READ,Rectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-002535,READ,READ,Rectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000532,READ,READ,Rectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-002654,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-002664,MACR,MACR,Mucinous Adenocarcinoma of the Colon and Rectum,COAD
+Colorectal Adenocarcinoma,ACH-002669,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-002839,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000202,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000958,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-001081,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-001084,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-001091,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000969,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000253,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000286,READ,READ,Rectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-002539,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000842,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-002659,MACR,MACR,Mucinous Adenocarcinoma of the Colon and Rectum,COAD
+Colorectal Adenocarcinoma,ACH-000950,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000999,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000997,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000400,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000403,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000963,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000967,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000467,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000895,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000970,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000820,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000982,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000957,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000935,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000089,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000955,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000998,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000986,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000412,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000421,READ,READ,Rectal Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000926,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000381,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000989,MACR,MACR,Mucinous Adenocarcinoma of the Colon and Rectum,COAD
+Colorectal Adenocarcinoma,ACH-000971,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000991,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000360,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000943,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000342,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000296,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000985,COAD,COAD,Colon Adenocarcinoma,COAD
+Colorectal Adenocarcinoma,ACH-000350,COAD,COAD,Colon Adenocarcinoma,COAD
+Cutaneous Melanoma,ACH-000582,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000580,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002847,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001570,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000614,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000765,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002461,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000219,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000750,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002512,ACRM,ACRM,Acral Melanoma,SKCM
+Cutaneous Melanoma,ACH-000788,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000579,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002508,ACRM,ACRM,Acral Melanoma,SKCM
+Cutaneous Melanoma,ACH-000014,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000632,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-000640,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-000008,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002460,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001645,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001704,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001970,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000644,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-002509,ACRM,ACRM,Acral Melanoma,SKCM
+Cutaneous Melanoma,ACH-000615,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-002511,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000450,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000458,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000661,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000274,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000304,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001971,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000822,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001339,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-001522,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001566,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001239,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001568,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000730,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-000812,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002005,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-000465,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000477,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000550,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000572,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002459,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000799,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000801,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002510,ACRM,ACRM,Acral Melanoma,SKCM
+Cutaneous Melanoma,ACH-000650,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000810,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-001569,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000441,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002207,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000814,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002096,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000827,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000881,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-000322,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000348,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000401,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-000805,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-001567,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001982,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002003,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002001,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002004,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002338,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002386,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002387,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002388,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002458,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001190,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000882,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001973,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001563,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000404,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-001990,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000425,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000423,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-002206,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002084,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001024,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002097,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002098,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002121,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-002159,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000884,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001975,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002152,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002205,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-001986,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002165,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002002,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001045,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-001002,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-001041,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-001044,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-002166,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000987,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-002143,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002147,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000931,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002162,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000915,SKCM,SKCM,Cutaneous Melanoma,SKCM
+Cutaneous Melanoma,ACH-000968,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-002153,MEL,MEL,Melanoma,SKCM
+Cutaneous Melanoma,ACH-000899,MEL,MEL,Melanoma,SKCM
+Diffuse Large B-Cell Lymphoma,ACH-000140,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000315,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000056,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000656,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000334,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000534,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000285,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000124,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-001703,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000611,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000371,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000271,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000697,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000157,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000365,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-001639,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-001677,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-001617,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-001148,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-002255,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000660,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-002221,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000388,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-000914,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-001616,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Diffuse Large B-Cell Lymphoma,ACH-001709,DLBCLNOS,DLBCLNOS,"Diffuse Large B-Cell Lymphoma, NOS",DLBC
+Esophagogastric Adenocarcinoma,ACH-000356,DSTAD,DSTAD,Diffuse Type Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000216,ESCA,ESCA,Esophageal Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000383,ESCA,ESCA,Esophageal Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000110,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000144,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000758,TSTAD,TSTAD,Tubular Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-001653,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000427,TSTAD,TSTAD,Tubular Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000466,TSTAD,TSTAD,Tubular Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-001544,ESCA,ESCA,Esophageal Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000344,DSTAD,DSTAD,Diffuse Type Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000351,STAS,STAS,Adenosquamous Carcinoma of the Stomach,ESCA
+Esophagogastric Adenocarcinoma,ACH-000303,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000325,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000949,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002730,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002733,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002446,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002757,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000485,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000255,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002736,DSTAD,DSTAD,Diffuse Type Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002161,TSTAD,TSTAD,Tubular Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002202,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002292,ESCA,ESCA,Esophageal Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000247,DSTAD,DSTAD,Diffuse Type Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000674,DSTAD,DSTAD,Diffuse Type Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000678,TSTAD,TSTAD,Tubular Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-001368,ESCA,ESCA,Esophageal Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-001496,GEJ,GEJ,Adenocarcinoma of the Gastroesophageal Junction,ESCA
+Esophagogastric Adenocarcinoma,ACH-001497,ESCA,ESCA,Esophageal Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-001500,ESCA,ESCA,Esophageal Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000047,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-001654,ESCA,ESCA,Esophageal Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-001664,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002141,SSRCC,SSRCC,Signet Ring Cell Carcinoma of the Stomach,ESCA
+Esophagogastric Adenocarcinoma,ACH-000239,TSTAD,TSTAD,Tubular Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002954,ESCA,ESCA,Esophageal Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002306,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000932,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000948,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000736,SSRCC,SSRCC,Signet Ring Cell Carcinoma of the Stomach,ESCA
+Esophagogastric Adenocarcinoma,ACH-000746,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000761,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000764,MSTAD,MSTAD,Mucinous Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000793,SSRCC,SSRCC,Signet Ring Cell Carcinoma of the Stomach,ESCA
+Esophagogastric Adenocarcinoma,ACH-002835,ESCA,ESCA,Esophageal Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000507,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000560,STSC,STSC,Small Cell Carcinoma of the Stomach,ESCA
+Esophagogastric Adenocarcinoma,ACH-000616,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002871,ESCA,ESCA,Esophageal Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000633,DSTAD,DSTAD,Diffuse Type Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000919,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000911,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002979,DSTAD,DSTAD,Diffuse Type Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002967,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002968,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002972,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000225,STSC,STSC,Small Cell Carcinoma of the Stomach,ESCA
+Esophagogastric Adenocarcinoma,ACH-002981,ESCA,ESCA,Esophageal Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000847,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000880,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000898,TSTAD,TSTAD,Tubular Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-002837,ESCA,ESCA,Esophageal Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000908,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Esophagogastric Adenocarcinoma,ACH-000581,STAD,STAD,Stomach Adenocarcinoma,ESCA
+Glioblastoma Multiforme,ACH-001608,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000231,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000200,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000244,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000269,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000631,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-001609,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000036,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000075,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000283,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000027,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000102,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000215,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-001606,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000152,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000634,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000673,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000676,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000455,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000760,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000819,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000863,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000738,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000137,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-001214,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-001605,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000445,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000623,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-002228,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000464,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-001610,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-001611,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-001622,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000289,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000323,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000887,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-001118,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000370,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-001329,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000098,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000622,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000504,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000543,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000469,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000479,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000328,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000368,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-001623,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-001624,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-002229,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000571,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000376,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-002227,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000570,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-002259,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-002230,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000558,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000609,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-000595,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-002680,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-002225,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-002231,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-002268,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-002349,GB,GB,Glioblastoma,GBM
+Glioblastoma Multiforme,ACH-002223,GB,GB,Glioblastoma,GBM
+Head and Neck Squamous Cell Carcinoma,ACH-002030,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001542,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001543,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001625,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002029,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001641,HNSC,HNSC,Head and Neck Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000618,HPHSC,HPHSC,Hypopharynx Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000619,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001701,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001698,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000692,LXSC,LXSC,Larynx Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001675,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000630,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001626,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002249,LXSC,LXSC,Larynx Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001511,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001510,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000228,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000682,LXSC,LXSC,Larynx Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000254,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002042,HNSC,HNSC,Head and Neck Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001690,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001691,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001692,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001693,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001694,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001699,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000549,LXSC,LXSC,Larynx Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001696,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002250,LXSC,LXSC,Larynx Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002251,LXSC,LXSC,Larynx Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000238,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002294,HPHSC,HPHSC,Hypopharynx Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000415,HPHSC,HPHSC,Hypopharynx Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000472,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000500,LXSC,LXSC,Larynx Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000503,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000518,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000546,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000548,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002244,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000832,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000188,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001509,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000846,HPHSC,HPHSC,Hypopharynx Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002265,HNSC,HNSC,Head and Neck Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001023,HNSC,HNSC,Head and Neck Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000715,LXSC,LXSC,Larynx Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002043,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002044,SNSC,SNSC,Sinonasal Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002045,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002305,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002213,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001385,HNSC,HNSC,Head and Neck Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001508,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000606,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000836,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000207,OPHSC,OPHSC,Oropharynx Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002296,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000992,LXSC,LXSC,Larynx Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002295,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001227,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000762,HNSC,HNSC,Head and Neck Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000723,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000732,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002212,HNSC,HNSC,Head and Neck Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000794,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000771,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000778,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002298,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001090,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001347,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-002297,LXSC,LXSC,Larynx Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000181,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001346,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001331,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000163,HNSC,HNSC,Head and Neck Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001228,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001229,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000735,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-000740,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Head and Neck Squamous Cell Carcinoma,ACH-001332,OCSC,OCSC,Oral Cavity Squamous Cell Carcinoma,HNSC
+Hepatocellular Carcinoma,ACH-000393,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000686,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000475,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000734,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000221,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000625,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000316,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000620,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000577,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000471,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-001089,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000422,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000217,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000537,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000361,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000420,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000476,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000478,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000848,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-002523,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000493,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000480,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-000483,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Hepatocellular Carcinoma,ACH-001318,HCC,HCC,Hepatocellular Carcinoma,LIHC
+Invasive Breast Carcinoma,ACH-000148,BRCNOS,BRCNOS,"Breast Invasive Carcinoma, NOS",BRCA
+Invasive Breast Carcinoma,ACH-000568,ILC,ILC,Breast Invasive Lobular Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000288,BRCNOS,BRCNOS,"Breast Invasive Carcinoma, NOS",BRCA
+Invasive Breast Carcinoma,ACH-000212,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000621,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000573,BRCNOS,BRCNOS,"Breast Invasive Carcinoma, NOS",BRCA
+Invasive Breast Carcinoma,ACH-000536,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000554,ILC,ILC,Breast Invasive Lobular Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000117,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000223,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-002179,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000196,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-002320,BRCNOS,BRCNOS,"Breast Invasive Carcinoma, NOS",BRCA
+Invasive Breast Carcinoma,ACH-000277,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000721,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000759,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000374,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001819,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000147,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000828,ILC,ILC,Breast Invasive Lobular Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-002208,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000876,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000643,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000248,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000258,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000276,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000930,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000934,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001065,ILC,ILC,Breast Invasive Lobular Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001249,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000783,ILC,ILC,Breast Invasive Lobular Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-002163,ILC,ILC,Breast Invasive Lobular Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001389,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001390,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001391,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001392,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001393,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001394,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001395,ILC,ILC,Breast Invasive Lobular Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001396,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001397,BRCANOS,BRCANOS,"Breast Invasive Cancer, NOS",BRCA
+Invasive Breast Carcinoma,ACH-001419,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001514,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001705,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001388,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000818,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-002885,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000849,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000856,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-002322,ILC,ILC,Breast Invasive Lobular Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000668,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000691,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000699,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000711,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-002399,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-002883,ILC,ILC,Breast Invasive Lobular Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000768,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000352,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000111,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-001358,ILC,ILC,Breast Invasive Lobular Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000097,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000927,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000857,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000902,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000910,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000044,ILC,ILC,Breast Invasive Lobular Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000017,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000019,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000028,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-002324,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-002884,ILC,ILC,Breast Invasive Lobular Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-002921,ILC,ILC,Breast Invasive Lobular Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-002950,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-002325,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-002326,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-002331,BRCNOS,BRCNOS,"Breast Invasive Carcinoma, NOS",BRCA
+Invasive Breast Carcinoma,ACH-002951,BRCA,BRCA,Invasive Breast Carcinoma,BRCA
+Invasive Breast Carcinoma,ACH-000330,IDC,IDC,Breast Invasive Ductal Carcinoma,BRCA
+Lung Adenocarcinoma,ACH-000888,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000886,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000875,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000851,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000781,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000872,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000869,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000774,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000852,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000416,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000785,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000787,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000779,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000837,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000841,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000845,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000925,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000945,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000951,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-001088,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000861,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000414,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-001490,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000447,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000448,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000791,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-002184,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-002337,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-002497,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-002522,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-002526,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-002531,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-002650,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-001137,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-001233,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000150,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000161,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000264,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000282,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000309,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000311,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000314,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000327,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000337,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000339,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000343,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000379,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000766,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000590,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000638,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-002089,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-002157,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000892,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000893,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000900,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000916,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000528,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000562,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000575,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000587,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000860,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000121,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000757,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000681,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000666,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-002172,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000677,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000733,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000706,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000712,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000718,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000675,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000744,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000589,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000392,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000521,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000451,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000482,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000667,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000109,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000033,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000062,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000496,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000029,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000030,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000012,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000578,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000066,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Adenocarcinoma,ACH-000021,LUAD,LUAD,Lung Adenocarcinoma,LUAD
+Lung Squamous Cell Carcinoma,ACH-000261,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000747,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000737,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000690,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-001113,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000390,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000705,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000442,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000563,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000585,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000395,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000700,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-001079,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000176,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000481,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-001234,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-001489,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000454,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000894,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000511,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000553,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000878,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000669,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000665,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000975,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000843,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-002122,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-002156,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000769,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000921,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Lung Squamous Cell Carcinoma,ACH-000858,LUSC,LUSC,Lung Squamous Cell Carcinoma,LUSC
+Mesothelioma,ACH-001547,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-002127,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-000645,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-002126,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-001562,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-001977,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-002128,PLMESO,PLMESO,Pleural Mesothelioma,MESO
+Mesothelioma,ACH-002123,PLMESO,PLMESO,Pleural Mesothelioma,MESO
+Mesothelioma,ACH-002125,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-000648,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-001555,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-001556,PLBMESO,PLBMESO,"Pleural Mesothelioma, Biphasic Type",MESO
+Mesothelioma,ACH-001557,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-001558,PLBMESO,PLBMESO,"Pleural Mesothelioma, Biphasic Type",MESO
+Mesothelioma,ACH-001559,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-001560,PLBMESO,PLBMESO,"Pleural Mesothelioma, Biphasic Type",MESO
+Mesothelioma,ACH-001561,PLBMESO,PLBMESO,"Pleural Mesothelioma, Biphasic Type",MESO
+Mesothelioma,ACH-002133,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-002134,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-001992,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-002135,PLBMESO,PLBMESO,"Pleural Mesothelioma, Biphasic Type",MESO
+Mesothelioma,ACH-002136,PLMESO,PLMESO,Pleural Mesothelioma,MESO
+Mesothelioma,ACH-002124,PLSMESO,PLSMESO,"Pleural Mesothelioma, Sarcomatoid Type",MESO
+Mesothelioma,ACH-000086,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-000092,PLBMESO,PLBMESO,"Pleural Mesothelioma, Biphasic Type",MESO
+Mesothelioma,ACH-000153,PLSMESO,PLSMESO,"Pleural Mesothelioma, Sarcomatoid Type",MESO
+Mesothelioma,ACH-002129,PLSMESO,PLSMESO,"Pleural Mesothelioma, Sarcomatoid Type",MESO
+Mesothelioma,ACH-000331,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-000335,PLBMESO,PLBMESO,"Pleural Mesothelioma, Biphasic Type",MESO
+Mesothelioma,ACH-000367,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-000319,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-002132,PLMESO,PLMESO,Pleural Mesothelioma,MESO
+Mesothelioma,ACH-002130,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-000569,PLEMESO,PLEMESO,"Pleural Mesothelioma, Epithelioid Type",MESO
+Mesothelioma,ACH-002131,PLMESO,PLMESO,Pleural Mesothelioma,MESO
+Non-Seminomatous Germ Cell Tumor,ACH-001578,EMBCA,EMBCA,Embryonal Carcinoma,TGCT
+Non-Seminomatous Germ Cell Tumor,ACH-001438,EMBCA,EMBCA,Embryonal Carcinoma,TGCT
+Non-Seminomatous Germ Cell Tumor,ACH-001437,EMBCA,EMBCA,Embryonal Carcinoma,TGCT
+Non-Seminomatous Germ Cell Tumor,ACH-001668,TT,TT,Teratoma,TGCT
+Non-Seminomatous Germ Cell Tumor,ACH-001672,EMBCA,EMBCA,Embryonal Carcinoma,TGCT
+Non-Seminomatous Germ Cell Tumor,ACH-002288,EMBCA,EMBCA,Embryonal Carcinoma,TGCT
+Non-Seminomatous Germ Cell Tumor,ACH-002291,EMBCA,EMBCA,Embryonal Carcinoma,TGCT
+Ovarian Serous Cystadenocarcinoma,ACH-000116,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000013,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-001373,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-001403,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000132,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-001630,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000574,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000103,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-001418,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-002182,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-002486,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000256,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-002181,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-001340,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-001370,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000430,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000443,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000520,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000524,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000542,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-002146,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000584,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000617,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000635,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000696,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000713,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-001151,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-001628,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-002140,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-002183,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000091,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000291,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000308,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-001632,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000704,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000811,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000962,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-001048,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-001063,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-001144,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-001145,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000409,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000001,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000460,SOC,SOC,Serous Ovarian Cancer,OV
+Ovarian Serous Cystadenocarcinoma,ACH-000278,HGSOC,HGSOC,High-Grade Serous Ovarian Cancer,OV
+Pancreatic Adenocarcinoma,ACH-000468,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000114,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000502,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000517,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000535,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-001072,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000022,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000652,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000933,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000417,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000060,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000023,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000093,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-001378,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-001379,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000085,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-001382,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-001999,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-002039,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-002164,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-002185,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-002186,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-002672,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-002738,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-002742,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-002743,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-002744,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-002745,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-001380,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000266,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000270,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000281,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000307,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000320,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000332,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000354,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000042,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-001353,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-001375,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-001376,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-001377,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000599,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000601,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-001098,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000118,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000138,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000139,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000213,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000031,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000178,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000205,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000107,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000222,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000235,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000094,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-001107,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000155,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000164,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-001101,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000243,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-001171,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Pancreatic Adenocarcinoma,ACH-000265,PAAD,PAAD,Pancreatic Adenocarcinoma,PAAD
+Papillary Renal Cell Carcinoma,ACH-000234,PRCC,PRCC,Papillary Renal Cell Carcinoma,KIRP
+Papillary Renal Cell Carcinoma,ACH-000046,PRCC,PRCC,Papillary Renal Cell Carcinoma,KIRP
+Prostate Adenocarcinoma,ACH-000090,PRAD,PRAD,Prostate Adenocarcinoma,PRAD
+Prostate Adenocarcinoma,ACH-001648,PRAD,PRAD,Prostate Adenocarcinoma,PRAD
+Prostate Adenocarcinoma,ACH-001649,PRAD,PRAD,Prostate Adenocarcinoma,PRAD
+Prostate Adenocarcinoma,ACH-000115,PRAD,PRAD,Prostate Adenocarcinoma,PRAD
+Prostate Adenocarcinoma,ACH-001422,PRAD,PRAD,Prostate Adenocarcinoma,PRAD
+Prostate Adenocarcinoma,ACH-000952,PRAD,PRAD,Prostate Adenocarcinoma,PRAD
+Prostate Adenocarcinoma,ACH-000956,PRAD,PRAD,Prostate Adenocarcinoma,PRAD
+Prostate Adenocarcinoma,ACH-000979,PRAD,PRAD,Prostate Adenocarcinoma,PRAD
+Prostate Adenocarcinoma,ACH-000977,PRAD,PRAD,Prostate Adenocarcinoma,PRAD
+Prostate Adenocarcinoma,ACH-001627,PRAD,PRAD,Prostate Adenocarcinoma,PRAD
+Renal Cell Carcinoma,ACH-000189,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-000317,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-000171,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-001163,MRC,MRC,Renal Medullary Carcinoma,KICH
+Renal Cell Carcinoma,ACH-000457,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-000484,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-000375,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-000555,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-000792,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-002199,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-000495,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-001225,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-001398,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-000385,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-001194,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-002139,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-002150,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-002151,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-002155,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-002167,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-002168,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-002195,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-001688,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-002533,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-000428,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-000429,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Cell Carcinoma,ACH-002090,RCC,RCC,Renal Cell Carcinoma,KICH
+Renal Clear Cell Carcinoma,ACH-000709,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000300,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000907,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000649,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000433,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000459,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000513,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000600,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-002192,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000684,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000016,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000159,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000246,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000250,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000262,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000313,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000411,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-002187,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-002188,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-002189,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-000272,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-002190,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-002191,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-001208,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-001224,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-001175,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Renal Clear Cell Carcinoma,ACH-001687,CCRCC,CCRCC,Renal Clear Cell Carcinoma,KIRC
+Sarcoma,ACH-001280,SYNS,SYNS,Synovial Sarcoma,SARC
+Sarcoma,ACH-002334,SYNS,SYNS,Synovial Sarcoma,SARC
+Sarcoma,ACH-000835,MFH,MFH,Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma,SARC
+Sarcoma,ACH-001164,MFH,MFH,Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma,SARC
+Sarcoma,ACH-001275,SYNS,SYNS,Synovial Sarcoma,SARC
+Sarcoma,ACH-001277,SYNS,SYNS,Synovial Sarcoma,SARC
+Sarcoma,ACH-000145,LMS,LMS,Leiomyosarcoma,SARC
+Sarcoma,ACH-001322,SYNS,SYNS,Synovial Sarcoma,SARC
+Sarcoma,ACH-002085,SYNS,SYNS,Synovial Sarcoma,SARC
+Sarcoma,ACH-001540,LIPO,LIPO,Liposarcoma,SARC
+Sarcoma,ACH-001791,LIPO,LIPO,Liposarcoma,SARC
+Sarcoma,ACH-001793,LIPO,LIPO,Liposarcoma,SARC
+Sarcoma,ACH-001794,WDLS,WDLS,Well-Differentiated Liposarcoma,SARC
+Sarcoma,ACH-001795,WDLS,WDLS,Well-Differentiated Liposarcoma,SARC
+Sarcoma,ACH-001796,WDLS,WDLS,Well-Differentiated Liposarcoma,SARC
+Sarcoma,ACH-001272,SYNS,SYNS,Synovial Sarcoma,SARC
+Sarcoma,ACH-001274,SYNS,SYNS,Synovial Sarcoma,SARC
+Sarcoma,ACH-001804,DDLS,DDLS,Dedifferentiated Liposarcoma,SARC
+Sarcoma,ACH-001807,DDLS,DDLS,Dedifferentiated Liposarcoma,SARC
+Sarcoma,ACH-002310,LIPO,LIPO,Liposarcoma,SARC
+Sarcoma,ACH-002065,MPNST,MPNST,Malignant Peripheral Nerve Sheath Tumor,SARC
+Sarcoma,ACH-002066,MPNST,MPNST,Malignant Peripheral Nerve Sheath Tumor,SARC
+Sarcoma,ACH-002693,MPNST,MPNST,Malignant Peripheral Nerve Sheath Tumor,SARC
+Sarcoma,ACH-002710,MPNST,MPNST,Malignant Peripheral Nerve Sheath Tumor,SARC
+Sarcoma,ACH-002799,MPNST,MPNST,Malignant Peripheral Nerve Sheath Tumor,SARC
+Sarcoma,ACH-002800,MPNST,MPNST,Malignant Peripheral Nerve Sheath Tumor,SARC
+Sarcoma,ACH-002801,MPNST,MPNST,Malignant Peripheral Nerve Sheath Tumor,SARC
+Sarcoma,ACH-000037,SARCNOS,SARCNOS,"Sarcoma, NOS",SARC
+Sarcoma,ACH-001799,DDLS,DDLS,Dedifferentiated Liposarcoma,SARC
+Sarcoma,ACH-001802,DDLS,DDLS,Dedifferentiated Liposarcoma,SARC
+Sarcoma,ACH-000505,LMS,LMS,Leiomyosarcoma,SARC
+Sarcoma,ACH-002785,LMS,LMS,Leiomyosarcoma,SARC
+Sarcoma,ACH-002784,MFH,MFH,Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma,SARC
+Sarcoma,ACH-001270,SYNS,SYNS,Synovial Sarcoma,SARC
+Sarcoma,ACH-002271,MFH,MFH,Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma,SARC
+Thyroid Carcinoma,ACH-000191,THAP,THAP,Anaplastic Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-001307,THAP,THAP,Anaplastic Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-001350,THAP,THAP,Anaplastic Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-001321,THME,THME,Medullary Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-001306,THAP,THAP,Anaplastic Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-002041,THAP,THAP,Anaplastic Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-002397,THAP,THAP,Anaplastic Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-000174,THAP,THAP,Anaplastic Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-000903,THFO,THFO,Follicular Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-001384,THFO,THFO,Follicular Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-001528,THPA,THPA,Papillary Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-002148,THPA,THPA,Papillary Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-001356,THAP,THAP,Anaplastic Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-001443,THAP,THAP,Anaplastic Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-000456,THPD,THPD,Poorly Differentiated Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-000058,THFO,THFO,Follicular Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-000716,THFO,THFO,Follicular Thyroid Cancer,THCA
+Thyroid Carcinoma,ACH-000897,THFO,THFO,Follicular Thyroid Cancer,THCA
+Uterine Carcinosarcoma,ACH-000302,UCS,UCS,Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor,UCS
+Uterine Carcinosarcoma,ACH-000407,UCS,UCS,Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor,UCS
+Uterine Carcinosarcoma,ACH-001495,UCS,UCS,Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor,UCS
+Uterine Carcinosarcoma,ACH-002046,UCS,UCS,Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor,UCS
+Uterine Corpus Endometrioid Carcinoma,ACH-000831,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000864,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000879,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000909,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000928,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000940,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000941,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000946,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000954,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000173,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000192,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000293,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000435,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000990,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000993,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000994,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000996,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-001042,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-001517,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-001518,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-002026,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-002027,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000961,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000972,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000974,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uterine Corpus Endometrioid Carcinoma,ACH-000978,UCEC,UCEC,Endometrial Carcinoma,UCEC
+Uveal Melanoma,ACH-001441,UM,UM,Uveal Melanoma,UVM
+Uveal Melanoma,ACH-001554,UM,UM,Uveal Melanoma,UVM
+Uveal Melanoma,ACH-002010,UM,UM,Uveal Melanoma,UVM
+Uveal Melanoma,ACH-002011,UM,UM,Uveal Melanoma,UVM
+Uveal Melanoma,ACH-002014,UM,UM,Uveal Melanoma,UVM
+Uveal Melanoma,ACH-002015,UM,UM,Uveal Melanoma,UVM
+Uveal Melanoma,ACH-002016,UM,UM,Uveal Melanoma,UVM
+Uveal Melanoma,ACH-002017,UM,UM,Uveal Melanoma,UVM
+Uveal Melanoma,ACH-002018,UM,UM,Uveal Melanoma,UVM
+Uveal Melanoma,ACH-002687,UM,UM,Uveal Melanoma,UVM
+Uveal Melanoma,ACH-002925,UM,UM,Uveal Melanoma,UVM
+Uveal Melanoma,ACH-002926,UM,UM,Uveal Melanoma,UVM
