@@ -69,8 +69,7 @@ dup_test <- as.data.frame(duplicated(merged$id))
 #######################
 ## Calculate median ##
 ######################
-### data has wide table format --> meaning it has values that do not repeat in the first colum
-### want a long format rather than wide --> values that do repeat in the first column.
+### data has wide table format 
 ### format wide df to long because it is better to use in analysis 
 merged_long <- pivot_longer(merged, cols = c(2:76)) 
 ### selects the columns that has trims 
@@ -155,7 +154,6 @@ dev.off()
 ### look at the ones with the same expression in all cell types ###
 ###################################################################
 ### look at variance 
-### gets variance for each trim 
 variance_data <- merged_long %>%
   group_by(name) %>%
   summarize(VarianceExpression = var(value)) 
