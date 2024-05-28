@@ -200,3 +200,6 @@ tileplot_filtered_variance <- ggplot(filtered_variance, aes(x = `tcga code`,  y 
 pdf("tileplot_filtered_variance_tcga.pdf", width = 10, height = 10, onefile = F)
 print(tileplot_filtered_variance)
 dev.off()
+
+# save variance for subsequent correlation analysis 
+fwrite(filtered_variance, "filtered_variance_tcga.csv", append=TRUE)
