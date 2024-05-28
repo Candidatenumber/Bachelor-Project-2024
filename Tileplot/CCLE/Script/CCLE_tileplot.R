@@ -17,6 +17,10 @@ clin_ccle <- as.data.frame(fread("clinical_ccle_data.csv"))
 ### read in TRIM file 
 trim <- as.data.frame(fread("trim_overview_edit_CCLE.csv"))
 
+############################
+#### filter based on trim ##
+############################
+
 #### merge files (trim and expr)
 trim_expr <- merge(expr, trim, by = "gene")
 ### 72 of 84 trim before editing, but after its 82 of 84 
@@ -55,9 +59,9 @@ test <- distinct(merged, merged$id,.keep_all = TRUE)
 rm(dup, test)
 ### No duplictaes are present
 
-###########################
-## Calculate mean/median ##
-###########################
+#######################
+## Calculate median ##
+######################
 
 ### data has wide table format 
 ### want a long format rather than wide 
@@ -72,22 +76,8 @@ median_data <- merged_long %>%
   group_by(`tcga code`, name) %>%
   summarize(MedianExpression = median(value))
 
-
-### to get the same order in this dotplot as in tcga
-level_order <- c("CMYA5", "MEFV", "MID1", "MID2","PML", "RNF152", "RNF207", "SPRYD5", "TRIML1", "TRIM2", "TRIML2", "TRIM3", "TRIM4", 
-                 "TRIM5", "TRIM6", "TRIM7", "TRIM8", "TRIM9", "TRIM10", "TRIM11", 
-                 "TRIM13", "TRIM14", "TRIM15", "TRIM16", "TRIM16L", "TRIM17", "TRIM21", "TRIM22", 
-                 "TRIM23", "TRIM24", "TRIM25", "TRIM26", "TRIM27", "TRIM28", "TRIM29",
-                 "TRIM31", "TRIM32", "TRIM33", "TRIM34", "TRIM35", "TRIM36", "TRIM37", "TRIM38",
-                 "TRIM39", "TRIM40", "TRIM41", "TRIM42", "TRIM43", "TRIM43B", "TRIM44", "TRIM45", "TRIM46",
-                 "TRIM47", "TRIM48", "TRIM49", "TRIM49B", "TRIM49C", "TRIM49D2", "TRIM50", "TRIM51", "TRIM51G", 
-                 "TRIM52", "TRIM54", "TRIM55", "TRIM56", "TRIM58", "TRIM59", "TRIM60", "TRIM61", "TRIM62", 
-                 "TRIM63", "TRIM64", "TRIM64B", "TRIM64C", "TRIM65","TRIM66", "TRIM67", "TRIM68", "TRIM69", 
-                 "TRIM71", "TRIM72", "TRIM73", "TRIM74",
-                 "TRIM75", "TRIM77")
-
 ####################
-##### tileplot ######
+##### tileplot #####
 ####################
 tileplot <- ggplot(median_data, aes(x = `tcga code`, y = factor(name, level = level_order), fill = MedianExpression)) +
   geom_tile() + 
@@ -127,9 +117,9 @@ pdf("tileplot_median_ccle.pdf", width = 15, height = 20, onefile = F)
 print(tileplot_median)
 dev.off()
 
-#####################################################################
-#### remove low median expression, based on looking at the figure ###
-#####################################################################
+#####################################
+#### remove low median expression ###
+#####################################
 median_data <- subset(median_data, !(name %in% c("TRIM42", "TRIM64C", "TRIM77", "TRIML1", 
                                                  "TRIMG4", "TRIM64B", "TRIM49D2", "TRIM49B", 
                                                  "TRIM40", "TRIM49C", "TRIM43B", "TRIM50", 
@@ -152,3 +142,58 @@ tileplot_high_median <- ggplot(median_data, aes(x = `tcga code`, y = name, fill 
 pdf("tileplot_high_median_ccle.pdf", width = 15, height = 20, onefile = F)
 print(tileplot_high_median)
 dev.off()
+
+###################################################################
+### look at the ones with the same expression in all cell types ###
+###################################################################
+### look at variance 
+### gets variance for each trim 
+variance_data <- merged_long %>%
+  group_by(name) %>%
+  summarize(VarianceExpression = var(value)) 
+
+### remove low variance values ##
+variance_data <- merged_long %>% group_by(name) %>% 
+  summarize(VarianceExpression = var(value)) %>% filter(VarianceExpression > 1)
+
+### make plot with high variance 
+merged_high <- merge(median_data, variance_data, by = "name")
+
+tileplot_high_variance <- ggplot(merged_high, aes(x = `tcga code`, y = name, fill = MedianExpression)) +
+  geom_tile() + 
+  scale_fill_viridis_c() +
+  theme_bw()+ 
+  labs(y = " ", x = "Cancer Type", fill = "Median Expression") +
+  theme(axis.text.x = element_text(angle = 80, hjust = 1, size = 14),
+        axis.title.x = element_text(size = 14),
+        axis.text.y = element_text(size = 14),
+        axis.title.y = element_blank(),  
+        strip.background = element_blank())
+
+
+pdf("tileplot_high_variance_ccle.pdf", width = 15, height = 20, onefile = F)
+print(tileplot_high_variance)
+dev.off()
+
+##### figure with the trims that has high variance in ccle and tcga 
+variance_both <- c("MID1", "MID2", "RNF207", "TRIM15", "TRIM2", "TRIM22", 
+                   "TRIM29", "TRIM55", "TRIM58", "TRIM6", "TRIM7", "TRIM9")
+
+filtered_variance <- merged_high[merged_high$name %in% variance_both, ]
+
+tileplot_filtered_variance <- ggplot(filtered_variance, aes(x = `tcga code`,  y = factor(name, level = variance_both), fill = MedianExpression)) +
+  geom_tile() + 
+  scale_fill_viridis_c() +
+  theme_bw()+ 
+  labs(y = " ", x = "Cancer Type", fill = "Median Expression") +
+  theme(axis.text.x = element_text(angle = 80, hjust = 1, size = 14),
+        axis.title.x = element_text(size = 14),
+        axis.text.y = element_text(size = 14),
+        axis.title.y = element_blank(), 
+        strip.background = element_blank())
+
+pdf("tileplot_filtered_variance_ccle.pdf", width = 10, height = 10, onefile = F)
+print(tileplot_filtered_variance)
+dev.off()
+
+
