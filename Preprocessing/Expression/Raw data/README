@@ -1,0 +1,7 @@
+# Raw data used in the preprocessing can be found: 
+
+# Expression file used for CCLE is named “OmicsExpressionProteinCodingGenesTPMLogp1.csv” and can be found at: 
+# https://depmap.org/portal/download/all/?releasename=DepMap+Public+23Q4&filename=OmicsExpressionProteinCodingGenesTPMLogp1.csv
+
+# Expression file used for TCGA is named “EBPlusPlusAdjustPANCAN_IlluminaHiSeq_RNASeqV2.geneExp.tsv” and can be found at: 
+# https://xenabrowser.net/datapages/?dataset=EB%2B%2BAdjustPANCAN_IlluminaHiSeq_RNASeqV2.geneExp.xena&host=https%3A%2F%2Fpancanatlas.xenahubs.net&removeHub=http%3A%2F%2F127.0.0.1%3A7222
