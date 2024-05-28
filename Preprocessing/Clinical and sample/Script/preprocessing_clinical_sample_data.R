@@ -41,8 +41,10 @@ clin_tcga <- clin_tcga[,c(4,5)]
 ### join tcga and ccle together so we get the tcga code in the ccle file
 df1 <- distinct(clin_ccle, clin_ccle$OncotreePrimaryDisease,.keep_all = TRUE)
 df1$`clin_ccle$OncotreePrimaryDisease` <- NULL
+
 df2 <- distinct(clin_tcga, clin_tcga$`tcga code`, .keep_all = TRUE)
 df2$`clin_tcga$\`tcga code\`` <- NULL
+
 comb <- merge(df1, df2, by = "OncotreePrimaryDisease")
 comb <- comb[,c("OncotreePrimaryDisease", "tcga code")]
 
