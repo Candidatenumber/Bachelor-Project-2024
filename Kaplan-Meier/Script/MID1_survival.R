@@ -9,7 +9,7 @@ library(ggpubr)
 library(survival)
 library(survminer)
 
-??survival
+
 # read expression file 
 expr <- as.data.frame(fread("expression_data_tcga_log2.csv"))
 
@@ -57,7 +57,7 @@ info_surv_PFI$MID1_expression <- ifelse(info_surv_PFI$MID1 >= 7.955581, 'High', 
 table(info_surv_DSS$MID1_expression) #high vs low
 table(info_surv_PFI$MID1_expression) #high vs low, want them to be around equal to each other
 
-??survminer
+
 
 #### for DSS #### 
 #Remove timepoints that start at 0 
