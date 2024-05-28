@@ -34,7 +34,7 @@ clin_tcga <- clin_tcga %>% arrange(`_primary_disease`)
 ### change name so it fits with ccle name
 colnames(clin_tcga)[4] <- "OncotreePrimaryDisease"
 
-### chnage tcga so we only get primary disease and the codes
+### change tcga so we only get primary disease and the codes
 clin_tcga <- clin_tcga[,c(4,5)]
 
 
