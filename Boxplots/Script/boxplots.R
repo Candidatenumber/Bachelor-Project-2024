@@ -1,28 +1,29 @@
 ## boxplots ###
 
+####################
+###load libraries###
+####################
 library(tidyverse)
 library(data.table)
 library(ggpubr)
 library(mclust)
 
-
-
-#load clinical tcga data 
+### load clinical tcga data 
 clin_tcga <- as.data.frame(fread("clinical_tcga_data.csv"))
 
-#load tcga data 
+### load tcga data 
 tcga <- as.data.frame(fread("expression_data_tcga_log2.csv"))
 
-#load trim data 
+### load trim data 
 trim <- as.data.frame(fread("trim_overview_final.csv"))
 
 ############################
 #### filter based on trim ##
 ############################
 
-#filter tcga 
+### filter tcga 
 trim_tcga <- trim %>% filter(trim$gene %in% tcga$gene)
-#68 of 84 matches
+### 68 of 84 matches
 
 ##### look at which ones that was not included in the trim_expr
 nonMatch <- trim %>% filter(!trim$gene %in% trim_tcga$gene)
@@ -30,62 +31,49 @@ nonMatch <- trim %>% filter(!trim$gene %in% trim_tcga$gene)
 ### edit exel file with trim proteins and load file again with the new names for some trims
 trim_edited <- as.data.frame(fread("trim_overview_edit_TCGA.csv"))
 
-####################
-#### merge files ####
-#####################
-#merge trim and tcga 
+
+### merge trim and tcga 
 trim_tcga <- merge(tcga, trim_edited, by = "gene")
 
-#to get id on column 1 and trims on rows
+### to get id on column 1 and trims on rows
 trim_tcga <- column_to_rownames(trim_tcga, "gene")
 trim_tcga <- as.data.frame(t(trim_tcga))
 trim_tcga <- rownames_to_column(trim_tcga, "id")
 
-
-##############################
-## subset for clinical data ##
-#############################
-
-#merge with clinical data 
+### merge with clinical data 
 colnames(clin_tcga)[2] <- "id" #to get the same name for id as in the other data
 
 merged <- merge(trim_tcga, clin_tcga, by = "id")
 
-#######################
-## Clean merged file ##
-#######################
 table(merged$`tcga code`) #to check if all codes are included --> 33 codes, all codes are included 
 
-#####Test for duplicates 
+#### Test for duplicates 
 dup <- as.data.frame(duplicated(merged$id))
 
 dup_rows <- merged[dup$`duplicated(merged$id)`, ]
-#gets 89 duplicates
+### gets 89 duplicates
 
 dup_rows$id
-#looked at the id in tcga dataset and saw that there are two of the same id with same values
+### looked at the id in tcga dataset and saw that there are two of the same id with same values
 
-#the duplicated ones has the same values, can delete the second occurrance
+### the duplicated ones has the same values, can delete the second occurrance
 dup_results <- duplicated(merged$id)
 merged <- merged[!dup_results, ] #before removing:10312, after: 10223 --> 89 removed
 
-#no matches for duplicates 
+###no matches for duplicates 
 dup_test <- as.data.frame(duplicated(merged$id))
 
 
-###########################
-## Calculate mean/median ##
-###########################
-# data has wide table format --> meaning it has values that do not repeat in the first colum
-# want a long format rather than wide --> values that do repeat in the first column.
-# format wide df to long because it is better to use in analysis 
+########################
+### Calculate median ###
+########################
+### data has wide table format
+### format wide df to long because it is better to use in analysis 
 merged_long <- pivot_longer(merged, cols = c(2:76)) 
-# selects the columns that has trims 
+### selects the columns that has trims 
 
 
-
-###############
-#Calculate the median expression for each trim protein in each of the TCGA cancer code 
+###Calculate the median expression for each trim protein in each of the TCGA cancer code 
 median_data <- merged_long %>%
   group_by(`tcga code`, name) %>%
   summarize(MedianExpression = median(value))
@@ -95,8 +83,7 @@ median_data <- merged_long %>%
 ###################################################################
 ### look at the ones with the same expression in all cell types ###
 ###################################################################
-# look at variance 
-# gets variance for each trim 
+### look at variance 
 variance_data <- merged_long %>%
   group_by(name) %>%
   summarize(VarianceExpression = var(value)) 
@@ -105,10 +92,10 @@ variance_data <- merged_long %>%
 variance_data <- merged_long %>% group_by(name) %>% 
   summarize(VarianceExpression = var(value)) %>% filter(VarianceExpression > 2)
 
-# trim with high variance
+### trim with high variance
 merged_high <- merge(median_data, variance_data, by = "name")
 
-#filter to get TRIM proteins with high variance in TCGA and CCLE
+### filter to get TRIM proteins with high variance in TCGA and CCLE
 variance_both <- c("MID1", "MID2", "RNF207", "TRIM15", "TRIM2", "TRIM22", 
                    "TRIM29", "TRIM55", "TRIM58", "TRIM6", "TRIM7", "TRIM9")
 
@@ -121,11 +108,11 @@ std_trim <- merged_long %>%
   group_by(`tcga code`, name) %>%
   summarize(STDExpression = sd(value))
 
-# calculate the std for the ones with high variance 
+### calculate the std for the ones with high variance 
 merged_std <- merge(std_trim, variance_data, by = "name")
 
 
-# gets the 25 with high variance 
+### gets the 25 with high variance 
 table(merged_std$name)
 
 
@@ -134,7 +121,7 @@ table(merged_std$name)
 ##########################################################
 high_var_std <- merge(filtered_variance, merged_std, by =c("name", "tcga code", "VarianceExpression"))
 
-## look at which cancer type that has highest std in each of the 12 trim 
+### look at which cancer type that has highest std in each of the 12 trim 
 
 #TRIM55 --> UCS: 4.003219
 #TRIM15 --> ESCA: 3.7849355
@@ -154,18 +141,18 @@ high_var_std <- merge(filtered_variance, merged_std, by =c("name", "tcga code", 
 filtered_merged_long <- merged_long[merged_long$name %in% variance_both, ]
 
 table(filtered_merged_long$name)
-# gets the merged file for the 12 trims 
+### gets the merged file for the 12 trims 
 
-# to get std, value and variance together for the 12 trims
+### to get std, value and variance together for the 12 trims
 std_expr <- merge(filtered_merged_long, merged_std, by =c("name", "tcga code"))
 
 table(std_expr$name) #check if all 12 trim was included (and only them)
 
 std_expr <- std_expr[,c(1:5, 40:42)]
 
-
-#make boxplots for the cancer type with the highest STD for each of the 12 trims 
-#based on the values from merged long
+########################################################################################
+### make boxplots for the cancer type with the highest STD for each of the 12 trims ###
+########################################################################################
 
 #boxplot for each trim and the highest STD cancer type 
 # histogram besides the boxplots to look at normal distribution
@@ -201,13 +188,11 @@ histogram_t15 <- ggplot(std_expr %>% filter(name %in% c("TRIM15") & `tcga code` 
         axis.line = element_line(linewidth = 0.7, linetype = "solid", colour = "black"))
 
 
-
-
 comb_t15 <- cowplot::plot_grid(t15 + theme(legend.position = "none"), 
                                histogram_t15 + coord_flip(), 
                                ncol = 2, align = 'h', rel_widths = c(2, 1))
 
-?plot_grid
+
 pdf("TRIM15_ESCA_STD.pdf", width = 4, height = 4, onefile = F)
 print(t15)
 dev.off()
@@ -216,8 +201,8 @@ pdf("TRIM15_boxplot_hist.pdf", width = 5, height = 5, onefile = F)
 print(comb_t15)
 dev.off()
 
-# to add a red line for cutoff value used in survival 
-# GMM as cutoff: 
+### to add a red line for cutoff value used in survival 
+### GMM as cutoff: 
 data <- std_expr %>% filter(name %in% c("TRIM15") & `tcga code` %in% c("ESCA")) %>%
   pull(value) # gets the data we want to look at
 
@@ -250,8 +235,8 @@ print(hist_t15_GMM)
 dev.off()
 
 
-#by using median as the cutoff 
-# to get the data we are interested in 
+### by using median as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM15") & `tcga code` %in% c("ESCA")) %>% pull(value)
 median_value <- median(data) # calculate the median, gives us the value 5.701184
 
@@ -274,8 +259,8 @@ pdf("TRIM15_histogram_median.pdf", width = 4, height = 4, onefile = F)
 print(hist_t15_median)
 dev.off()
 
-# using mean as the cutoff 
-# to get the data we are interested in 
+### using mean as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM15") & `tcga code` %in% c("ESCA")) %>% pull(value)
 mean_value <- mean(data) # calculate the mean, gives us the value 5.068089
 
@@ -341,8 +326,8 @@ pdf("TRIM55_boxplot_hist.pdf", width = 5, height = 5, onefile = F)
 print(comb_t55)
 dev.off()
 
-# to add a red line for cutoff value used in survival 
-# it is right skewed so has to: 
+### to add a red line for cutoff value used in survival 
+### GMM as cutoff: 
 data <- std_expr %>% filter(name %in% c("TRIM55") & `tcga code` %in% c("UCS")) %>%
   pull(value) # gets the data we want to look at
 
@@ -371,8 +356,8 @@ pdf("TRIM55_histogram_GMM.pdf", width = 4, height = 4, onefile = F)
 print(hist_t55_GMM)
 dev.off()
 
-#by using median as the cutoff 
-# to get the data we are interested in 
+### by using median as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM55") & `tcga code` %in% c("UCS")) %>% pull(value)
 median_value <- median(data) # calculate the median, gives us the value 2.778082
 
@@ -396,8 +381,8 @@ print(hist_t55_median)
 dev.off()
 
 
-# using mean as the cutoff 
-# to get the data we are interested in 
+### using mean as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM55") & `tcga code` %in% c("UCS")) %>% pull(value)
 mean_value <- mean(data) # calculate the mean, gives us the value 4.520819
 
@@ -464,7 +449,8 @@ pdf("TRIM58_boxplot_hist.pdf", width = 5, height = 5, onefile = F)
 print(comb_t58)
 dev.off()
 
-# to add a red line for cutoff value used in survival 
+### to add a red line for cutoff value used in survival 
+### using GMM as cutoff: 
 data <- std_expr %>% filter(name %in% c("TRIM58") & `tcga code` %in% c("SKCM")) %>% 
   pull(value)
 
@@ -493,8 +479,8 @@ pdf("TRIM58_histogram_GMM.pdf", width = 4, height = 4, onefile = F)
 print(hist_t58_GMM)
 dev.off()
 
-#by using median as the cutoff 
-# to get the data we are interested in 
+### by using median as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM58") & `tcga code` %in% c("SKCM")) %>% pull(value)
 median_value <- median(data) # calculate the median, gives us the value 4.025676
 
@@ -517,8 +503,8 @@ pdf("TRIM58_histogram_median.pdf", width = 4, height = 4, onefile = F)
 print(hist_t58_median)
 dev.off()
 
-# using mean as the cutoff 
-# to get the data we are interested in 
+### using mean as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM58") & `tcga code` %in% c("SKCM")) %>% pull(value)
 mean_value <- mean(data) # calculate the mean, gives us the value 4.70558
 
@@ -587,7 +573,8 @@ pdf("TRIM9_boxplot_hist.pdf", width = 5, height = 5, onefile = F)
 print(comb_t9)
 dev.off()
 
-# to add a red line for cutoff value used in survival 
+### to add a red line for cutoff value used in survival
+### using GMM as cutoff:
 data <- std_expr %>% filter(name %in% c("TRIM9") & `tcga code` %in% c("LIHC")) %>%
   pull(value)
 
@@ -616,8 +603,8 @@ pdf("TRIM9_histogram_GMM.pdf", width = 4, height = 4, onefile = F)
 print(hist_t9_GMM)
 dev.off()
 
-#by using median as the cutoff 
-# to get the data we are interested in 
+### by using median as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM9") & `tcga code` %in% c("LIHC")) %>% pull(value)
 median_value <- median(data) # calculate the median, gives us the value 3.375415
 
@@ -641,8 +628,8 @@ print(hist_t9_median)
 dev.off()
 
 
-# using mean as the cutoff 
-# to get the data we are interested in 
+### using mean as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM9") & `tcga code` %in% c("LIHC")) %>% pull(value)
 mean_value <- mean(data) # calculate the mean, gives us the value 3.781376
 
@@ -709,7 +696,8 @@ pdf("TRIM7_boxplot_hist.pdf", width = 5, height = 5, onefile = F)
 print(comb_t7)
 dev.off()
 
-# to add a red line for cutoff value used in survival 
+### to add a red line for cutoff value used in survival 
+### using GMM as cutoff: 
 data <- std_expr %>% filter(name %in% c("TRIM7") & `tcga code` %in% c("COAD")) %>%
   pull(value)
 
@@ -739,8 +727,8 @@ pdf("TRIM7_histogram_GMM.pdf", width = 4, height = 4, onefile = F)
 print(hist_t7_GMM)
 dev.off()
 
-#by using median as the cutoff 
-# to get the data we are interested in 
+### by using median as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM7") & `tcga code` %in% c("COAD")) %>% pull(value)
 median_value <- median(data) # calculate the median, gives us the value 5.167258
 
@@ -763,8 +751,8 @@ pdf("TRIM7_histogram_median.pdf", width = 4, height = 4, onefile = F)
 print(hist_t7_median)
 dev.off()
 
-# using mean as the cutoff 
-# to get the data we are interested in 
+### using mean as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM7") & `tcga code` %in% c("COAD")) %>% pull(value)
 mean_value <- mean(data) # calculate the mean, gives us the value 5.673641
 
@@ -832,7 +820,8 @@ pdf("TRIM6_boxplot_hist.pdf", width = 5, height = 5, onefile = F)
 print(comb_t6)
 dev.off()
 
-# add a red line where the cutoff for survival is 
+### add a red line where the cutoff for survival is 
+### using GMM as cutoff: 
 data <- std_expr %>% filter(name %in% c("TRIM6") & `tcga code` %in% c("SARC")) %>%
   pull(value)
 
@@ -862,8 +851,8 @@ print(hist_t6_GMM)
 dev.off()
 
 
-#by using median as the cutoff 
-# to get the data we are interested in 
+### by using median as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM6") & `tcga code` %in% c("SARC")) %>% pull(value)
 median_value <- median(data) # calculate the median, gives us the value 6.480402
 
@@ -887,8 +876,8 @@ print(hist_t6_median)
 dev.off()
 
 
-# using mean as the cutoff 
-# to get the data we are interested in 
+### using mean as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM6") & `tcga code` %in% c("SARC")) %>% pull(value)
 mean_value <- mean(data) # calculate the mean, gives us the value 6.215571
 
@@ -956,7 +945,8 @@ pdf("TRIM29_boxplot_hist.pdf", width = 5, height = 5, onefile = F)
 print(comb_t29)
 dev.off()
 
-# add a red line where the cutoff for survival is 
+### add a red line where the cutoff for survival is 
+### using GMM as cutoff: 
 data <- std_expr %>% filter(name %in% c("TRIM29") & `tcga code` %in% c("SKCM")) %>%
   pull(value)
 
@@ -985,8 +975,8 @@ pdf("TRIM29_histogram_GMM.pdf", width = 4, height = 4, onefile = F)
 print(hist_t29_GMM)
 dev.off()
 
-#by using median as the cutoff 
-# to get the data we are interested in 
+### by using median as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM29") & `tcga code` %in% c("SKCM")) %>% pull(value)
 median_value <- median(data) # calculate the median, gives us the value 2.151404
 
@@ -1009,8 +999,8 @@ pdf("TRIM29_histogram_median.pdf", width = 4, height = 4, onefile = F)
 print(hist_t29_median)
 dev.off()
 
-# using mean as the cutoff 
-# to get the data we are interested in 
+### using mean as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM29") & `tcga code` %in% c("SKCM")) %>% pull(value)
 mean_value <- mean(data) # calculate the mean, gives us the value 3.491103
 
@@ -1085,7 +1075,8 @@ data <- std_expr %>% filter(name %in% c("RNF207") & `tcga code` %in% c("GBM")) %
 
 shapiro.test(data) # p value is 0,1573 so its greater than 0,05 and we can assume the normality.
 
-#GMM method 
+### add a red line where the cutoff for survival is 
+### using GMM as cutoff: 
 data <- std_expr %>% filter(name %in% c("RNF207") & `tcga code` %in% c("GBM")) %>%
   pull(value)
 
@@ -1114,8 +1105,8 @@ print(hist_rnf207_GMM)
 dev.off()
 
 
-#by using median as the cutoff 
-# to get the data we are interested in 
+### by using median as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("RNF207") & `tcga code` %in% c("GBM")) %>% pull(value)
 median_value <- median(data) # calculate the median, gives us the value 4.354782
 
@@ -1138,8 +1129,8 @@ pdf("RNF207_histogram_median.pdf", width = 4, height = 4, onefile = F)
 print(hist_rnf207_median)
 dev.off()
 
-# using mean as the cutoff 
-# to get the data we are interested in 
+### using mean as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("RNF207") & `tcga code` %in% c("GBM")) %>% pull(value)
 mean_value <- mean(data) # calculate the mean, gives us the value 4.458414
 
@@ -1206,8 +1197,9 @@ pdf("MID2_boxplot_hist.pdf", width = 5, height = 5, onefile = F)
 print(comb_mid2)
 dev.off()
 
-#add a red line for cutoff value for survival 
-# is bimodal distributed so has to calculate: 
+
+### add a red line where the cutoff for survival is 
+### using GMM as cutoff: 
 data <- std_expr %>% filter(name %in% c("MID2") & `tcga code` %in% c("SKCM")) %>%
   pull(value)
 
@@ -1236,8 +1228,8 @@ pdf("MID2_histogram_GMM.pdf", width = 4, height = 4, onefile = F)
 print(hist_mid2_GMM)
 dev.off()
 
-#by using median as the cutoff 
-# to get the data we are interested in 
+### by using median as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("MID2") & `tcga code` %in% c("SKCM")) %>% pull(value)
 median_value <- median(data) # calculate the median, gives us the value 7.0506
 
@@ -1260,8 +1252,8 @@ pdf("MID2_histogram_median.pdf", width = 4, height = 4, onefile = F)
 print(hist_mid2_median)
 dev.off()
 
-# using mean as the cutoff 
-# to get the data we are interested in 
+### using mean as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("MID2") & `tcga code` %in% c("SKCM")) %>% pull(value)
 mean_value <- mean(data) # calculate the mean, gives us the value 6.688921
 
@@ -1329,8 +1321,8 @@ pdf("MID1_boxplot_hist.pdf", width = 5, height = 5, onefile = F)
 print(comb_mid1)
 dev.off()
 
-# add a red line to use for cutoff value for survival 
-# has a bimodal distribution so: 
+### add a red line where the cutoff for survival is 
+### using GMM as cutoff: 
 data <- std_expr %>% filter(name %in% c("MID1") & `tcga code` %in% c("TGCT")) %>%
   pull(value)
 
@@ -1359,8 +1351,8 @@ pdf("MID1_histogram_GMM.pdf", width = 4, height = 4, onefile = F)
 print(hist_mid1_GMM)
 dev.off()
 
-#by using median as the cutoff 
-# to get the data we are interested in 
+### by using median as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("MID1") & `tcga code` %in% c("TGCT")) %>% pull(value)
 median_value <- median(data) # calculate the median, gives us the value 7.708293
 
@@ -1383,8 +1375,8 @@ pdf("MID1_histogram_median.pdf", width = 4, height = 4, onefile = F)
 print(hist_mid1_median)
 dev.off()
 
-# using mean as the cutoff 
-# to get the data we are interested in 
+### using mean as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("MID1") & `tcga code` %in% c("TGCT")) %>% pull(value)
 mean_value <- mean(data) # calculate the mean, gives us the value 7.842584
 
@@ -1452,13 +1444,14 @@ pdf("TRIM22_boxplot_hist.pdf", width = 5, height = 5, onefile = F)
 print(comb_t22)
 dev.off()
 
-# test for normality distribution
+### test for normality distribution
 data <- (std_expr %>% filter(name %in% c("TRIM22") & `tcga code` %in% c("UVM")) %>%
            pull(value))
 
 shapiro.test(data) # p-value is 0,8876 and is therefore over 0,05, and we can assume the normality.
 
-## GMM method 
+### add a red line where the cutoff for survival is 
+### using GMM as cutoff: 
 data <- (std_expr %>% filter(name %in% c("TRIM22") & `tcga code` %in% c("UVM")) %>%
            pull(value))
 
@@ -1488,8 +1481,8 @@ print(hist_t22_GMM)
 dev.off()
 
 
-#by using median as the cutoff 
-# to get the data we are interested in 
+### by using median as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM22") & `tcga code` %in% c("UVM")) %>% pull(value)
 median_value <- median(data) # calculate the median, gives us the value 7.718867
 
@@ -1512,8 +1505,8 @@ pdf("TRIM22_histogram_median.pdf", width = 4, height = 4, onefile = F)
 print(hist_t22_median)
 dev.off()
 
-# using mean as the cutoff 
-# to get the data we are interested in 
+### using mean as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM22") & `tcga code` %in% c("UVM")) %>% pull(value)
 mean_value <- mean(data) # calculate the mean, gives us the value 7.674049
 
@@ -1581,7 +1574,8 @@ pdf("TRIM2_boxplot_hist.pdf", width = 5, height = 5, onefile = F)
 print(comb_t2)
 dev.off()
 
-# to add a red line for cutoff value for survival 
+### add a red line where the cutoff for survival is 
+### using GMM as cutoff: 
 data <- std_expr %>% filter(name %in% c("TRIM2") & `tcga code` %in% c("CESC")) %>%
   pull(value)
 
@@ -1609,8 +1603,8 @@ pdf("TRIM2_histogram_GMM.pdf", width = 4, height = 4, onefile = F)
 print(hist_t2_GMM)
 dev.off()
 
-#by using median as the cutoff 
-# to get the data we are interested in 
+### to get the data we are interested in 
+### using median as the cutoff 
 data <- std_expr %>% filter(name %in% c("TRIM2") & `tcga code` %in% c("CESC")) %>% pull(value)
 median_value <- median(data) # calculate the median, gives us the value 9.370452
 
@@ -1633,8 +1627,8 @@ pdf("TRIM2_histogram_median.pdf", width = 4, height = 4, onefile = F)
 print(hist_t2_median)
 dev.off()
 
-# using mean as the cutoff 
-# to get the data we are interested in 
+### using mean as the cutoff 
+### to get the data we are interested in 
 data <- std_expr %>% filter(name %in% c("TRIM2") & `tcga code` %in% c("CESC")) %>% pull(value)
 mean_value <- mean(data) # calculate the mean, gives us the value 9.184499
 
