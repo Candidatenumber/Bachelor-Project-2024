@@ -65,8 +65,7 @@ rm(dup, test)
 
 ### data has wide table format 
 ### want a long format rather than wide 
-### format wide df to long 
-### Format wide df til long df 
+### format wide df to long  
 merged_long <- pivot_longer(merged, cols = c(2:83))
 ### each patient for that gene gets a value ^
 
@@ -146,8 +145,7 @@ dev.off()
 ###################################################################
 ### look at the ones with the same expression in all cell types ###
 ###################################################################
-### look at variance 
-### gets variance for each trim 
+### look at variance  
 variance_data <- merged_long %>%
   group_by(name) %>%
   summarize(VarianceExpression = var(value)) 
