@@ -194,4 +194,7 @@ pdf("tileplot_filtered_variance_ccle.pdf", width = 10, height = 10, onefile = F)
 print(tileplot_filtered_variance)
 dev.off()
 
+# save variance for subsequent correlation analysis 
+fwrite(filtered_variance, "filtered_variance_ccle.csv", append=TRUE)
+
 
